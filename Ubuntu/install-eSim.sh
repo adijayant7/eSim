@@ -67,6 +67,7 @@ run_version_script() {
     echo "VERSION = %(eSim_HOME)s/VERSION" >> $config_dir/$config_file
     echo "MODELICA_MAP_JSON = %(eSim_HOME)s/library/ngspicetoModelica/Mapping.json" >> $config_dir/$config_file
    
+fi
 }
 
 
