@@ -18,6 +18,10 @@
 #  ORGANIZATION: eSim Team, FOSSEE, IIT Bombay
 #       CREATED: Wednesday 15 July 2015 15:26
 #      REVISION: Sunday 30 March 2024 18:40
+
+config_dir="$HOME/.esim"
+config_file="esim.conf"
+mkdir -p "$config_dir"
 #=============================================================================
 
 # Function to detect Ubuntu version and full version string
