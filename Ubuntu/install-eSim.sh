@@ -22,6 +22,8 @@
 config_dir="$HOME/.esim"
 config_file="esim.conf"
 mkdir -p "$config_dir"
+eSim_Home="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
 #=============================================================================
 
 # Function to detect Ubuntu version and full version string
